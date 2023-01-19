@@ -5,48 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eren Yeşiltepe</title>
+    <link rel="icon" type="image/x-icon" href="/tabicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script src="./logic.js"></script>
+    <script src="./jquery-3.6.3.min.js"></script>
+    <script src="./datas.js"></script>
+    <script src="./functions.js"></script>
 </head>
 <body>
+
+    <div id="leftPart">
+        <div class="leftMenu">
+            <div id="options-icon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
     
-    <section class="introduction">
-        <div > <img id="myImg" src="./photos/my.photo.jpeg" alt="Eren Yeşiltepe"> </div>
-        <div>
-            <ul>
-                <li><p>Tel: +90 506 146 2718</p> </li>
-                <li><p> E-mail: eren.bilkentk15@hotmail.com</p></li>
-                <li><a href="https://www.linkedin.com/in/eren-ye%C5%9Filtepe" target="_blank"><img src="./photos/linkedin.png" > Eren Yeşiltepe</a></li>
-                <li><a href="https://github.com/Erenyesiltepe" target="_blank"><img src="./photos/githubba.jpg">Eren Yeşiltepe</a></li>
-                <li><a href="https://www.instagram.com/blue_phoenix_17/" target="_blank"><img src="./photos/instagram.png"> Eren Yeşiltepe</a></li>
-            </ul>
+              <ul id="options">
+                <li><p>About me</p></li>
+                <li><p>Contacts</p></li>
+                 <li><p>My Works</p></li>
+              </ul>
+           
+              
         </div>
+        <div id="decoration"></div>
+      </div>
+
+   
+
+    
+    <section id="inside">
+       
+       
     </section>
-
-    <section class="myWorks">
-        <div>
-            <div class="select">
-                <div id="iconPart">
-                    <div id="arduino"><img src="./photos/arduino.png" ></div>
-                    <div id="blender"><img src="./photos/blender-icon.png" ></div>
-                    <div id="coding"><img src="./photos/coding.png" ></div>
-                    <div id="guitar" ><img src="./photos/guitar.png" alt=""></div>
-                </div>
-
-                <div><p id="project">Blender Projects</p></div>
-                <div id="projectimg"></div>
-            </div>
+    <section id="works">
+        <div class="topInfo">
+             <img style="margin-right:80px;" src="./photos/my.photo.jpeg" alt="">
+             <img class="skills" src="./photos/arduino.png" alt="">
+             <div class="miniIcons"></div>
+             <div class="text">
+                 <p>
+                         Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                     Illo ab tenetur ex, facilis consequatur, vitae nisi tempore
+                     totam architecto ipsa eum vero quis voluptatem incidunt
+                     qui suscipit neque placeat perferendis.</p>
+             </div>
         </div>
+      
+       <div id="containworks">
+         
+       </div>
+     </section>
 
-        <div class="projects">
-            <div><input type="button" value="&#60;"></div>
-            <div id="list">
-            
-            </div>
-            <div><input type="button" value="&#62;"></div>  
-        </div>
-
-        <script src="./logic.js"></script>
-    </section>
 </body>
 </html>
