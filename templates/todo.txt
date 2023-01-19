@@ -1,4 +1,0 @@
-1)write a find description function that takes key but returns the description done
-3)Top infonun içine ayrı bir div oluştur da sonra mobil versiyonunu yazarken o div i works ün altına getirebilelim  done
-2)Write animation that will apppear the works
-süre:2 saat
