@@ -9,16 +9,11 @@ var blender=[
     {description:"Originally it was an NFT project. I just wanted to see if I could create it myself.",img:`<img src="./photos/blender/1.jpg">`,link:"https://www.instagram.com/p/Cnr0TBdolVO/?utm_source=ig_web_copy_link"},
     {description:"It was a project I made just for fun and improve my modelling and animation skills. I learned a lot about animation and organic modelling.",img:`<img src="./photos/blender/deer.png">`,link:"https://www.instagram.com/reel/Cm2gCSfs007/?utm_source=ig_web_copy_link"}
 ]
-
-var arduino=[
-
-]
-
 var coding=[
     {description:"Petiary was our CTIS221 JAVA term project. We created a program to store the information of pets and help their owners remember important things(like vaccination dates).",img:`<img src="./photos/coding/petiary.png">`,link:"https://github.com/Kitsune1890/221-Project.git"},
     {description:"It was my 1. CTIS164 homework. I simply made a game using C language and glut library.",img:`<img src="./photos/coding/hw1.png" alt="">`,link:"https://github.com/Erenyesiltepe/CTIS164-create-a-game-project.git"},
-    {description:"It was my 2. CTIS164 homework. I simply made a game using C language and glut library.",img:`<img src="./photos/coding/ekran.png">`,link:"https://github.com/Erenyesiltepe/164-homework2-hit-the-fish-challange.git"},
-    {description:"It was my 3. CTIS164 homework. I simply made a game using C language and glut library. I also implmented linked list and recursion.",img:`<img src="./photos/coding/car-simulation.png">`,link:"https://github.com/Erenyesiltepe/164-homework-3-car-light-simulation.git"},
+    {description:"It was my 2. CTIS164 homework. I simply made a game using C language and glut library.",img:`<img src="./photos/coding/hw2.jpg">`,link:"https://github.com/Erenyesiltepe/164-homework2-hit-the-fish-challange.git"},
+    {description:"It was my 3. CTIS164 homework. I simply made a game using C language and glut library. I also implmented linked list and recursion.",img:`<img src="./photos/coding/hw3.png">`,link:"https://github.com/Erenyesiltepe/164-homework-3-car-light-simulation.git"},
     {description:"It was actually my friend's CTIS164 homework. I just revised it. It was a great experience to alter code of someone else's.",img:`<img src="./photos/coding/kara.png">`,link:"https://github.com/Erenyesiltepe/z-lal-second-project-revisited.git"},
     {description:"It was my frontend development term project. It's a words-of-wonders version.",img:`<img src="./photos/coding/wow.png">`,link:"https://github.com/Erenyesiltepe/255-project.git"}
 ]
@@ -73,6 +68,3 @@ var Contacts=` <div id="mailform">
                     </div>
 
                     `;
-
-    var MyWorks;
-//var contacts=
