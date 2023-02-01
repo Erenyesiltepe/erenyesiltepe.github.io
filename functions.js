@@ -11,13 +11,13 @@ $(function(){
                 $("#inside").animate({left:'7000px'});
                 $("#works").animate({left:'7000px'});
                 var time=setTimeout(function(){
-                    $("body").css("height","750px");
+                    $("body").css("height","100vh");
                     $("#inside").css("display","flex");
                     $("#works").css("display","none");
                     $("#inside").html(aboutMe);
                     $("#inside").animate({left:'0px'});
                     $("#inside #mailform").css("left","250px").css("width","400px");
-                    $("#inside").css("width","540px");
+                    $("#inside").css("width","660px");
                     clearTimeout(time);
                 },500)
                 
@@ -28,7 +28,7 @@ $(function(){
                 $("#works #containworks").css("visibility","hidden");
                 $("#works").animate({left:'7000px'});
                 var time=setTimeout(function(){
-                    $("body").css("height","750px");
+                    $("body").css("height","100vh");
                     $("#works").css("display","none");
                     $("#inside").html(Contacts);
                     $("#inside").animate({left:'0px'});

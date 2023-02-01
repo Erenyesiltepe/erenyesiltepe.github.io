@@ -1,7 +1,7 @@
 
 *{margin:0px;box-sizing:border-box;font-family:Roboto, sans-serif;}
 
-body{height:750px;background-image:url(./photos/back.gif);display:flex;align-items: center;}
+body{height:100vh;background-image:url(./photos/back.gif);display:flex;align-items: center;}
 #leftPart{
     position:fixed;
     top:0px;
@@ -61,7 +61,7 @@ body{height:750px;background-image:url(./photos/back.gif);display:flex;align-ite
     display:flex;flex-direction: column;
     margin:30% auto;
     justify-content: center;
-    height:480px;width:540px;
+    height:480px;width:660px;
     position:relative;
     height: 300px;
     transition: ease all 0.5s;
@@ -75,19 +75,30 @@ body{height:750px;background-image:url(./photos/back.gif);display:flex;align-ite
     filter: invert(34%) sepia(72%) saturate(995%) hue-rotate(81deg) brightness(103%) contrast(92%);
     border-radius: 10px;
 }
-#contactme ul li{margin:2px;margin-top:15px;display: flex;}
+#contactme ul{padding:20px}
+#contactme ul li{margin:10px auto;display: flex;}
 #contactme ul a{display: flex;}
 #contactme ul a p{ transform: rotateY(90deg);
                  transform-origin: 0% 100%;
                  transition:ease all 0.5s;}
 #contactme ul a:hover p{transform: rotateY(0deg);}
 #contactme ul p{color:#189214;padding-left:5px;line-height: 30px;}
-#inside #mailform{padding:20px 50px 20px 50px;background-color:#189214;left:250px;height:288px;margin:2px;transition: ease all 0.5s;}
+#inside #mailform{padding:20px 50px 20px 50px;background-color:#189214;left:250px;height:288px;margin:2px;transition: ease all 0.5s;justify-content:center}
 #inside #mailform *{color:#1d0c40;text-indent: 20px;}
+#btn2{background-color: #189214; border-radius:5px;width:80px !important;height: fit-content;align-items: center;padding:5px;margin-left:20px;overflow: hidden;}
+#mailform #btn2 p{color:#1c152d;width:80px;}
+#btn2:hover{background-color: #1c152d;cursor:pointer;transition:all ease 0.5s;}
+#mailform #btn2:hover p{color: #189214;}
+
+#mailform form{overflow:hidden;}
+
+
 #btn{background-color: #189214; border-radius:5px;width:fit-content;height: fit-content;align-items: center;padding:5px;}
 #contactme ul #btn p{color:#1d0c40;}
 #btn:hover{background-color: #1c152d;cursor:pointer;transition:all ease 0.5s;}
 #contactme ul #btn:hover p{color:#189214;}
+
+
 #inside img{ width:250px;border-radius: 20px;}
 
 
@@ -121,7 +132,7 @@ body{height:750px;background-image:url(./photos/back.gif);display:flex;align-ite
 .skills{padding:10px; background-color:#352F44;}
 
 #works #containworks{width: 100%;height: fit-content;display: grid;}
-#containworks .work{display:none;position:relative;padding:20px;border-radius: 20px; align-items: center;background-color:#352F44;width:500px;height:200px;margin:20px 20px 0px 0px; }
+#containworks .work{display:none;position:relative;padding:20px;border-radius: 20px; align-items: center;background-color:#352F44;width:500px;height:200px;margin:20px 10px 10px 0px; }
 #containworks .work>div{width: 300px;}
 #containworks .work .btn{display: flex;width:fit-content;height:fit-content;margin-top:10px;background-color:#189214;border-radius: 20px;padding:10px;}
 #containworks .work .btn p{color:black;}
@@ -152,6 +163,7 @@ body{height:750px;background-image:url(./photos/back.gif);display:flex;align-ite
     #inside{position:relative;margin:50px auto;flex-direction:column-reverse;align-items:center;height:fit-content;width:fit-content !important;}
     #inside div{position:static;height:fit-content;width:350px;margin:10px auto;}
     #inside #mailform{padding:10px;height:fit-content;width:350px !important;}
+    #inside #mailform form{width:fit-content;}
     #contactme{display:flex;flex-direction:column;align-items:center}
     #contactme #btn{display:none;}
     #contactme ul a p{ transform: rotateY(0deg);}
@@ -160,8 +172,7 @@ body{height:750px;background-image:url(./photos/back.gif);display:flex;align-ite
     #works div{position:static;height:fit-content;width:fit-content;margin:10px auto;padding:5px;}
     #works .text p{width:300px !important;}
     #containworks{margin:1px auto !important;}
-    #containworks .works div{width:70% !important;}
-    #containworks .work{flex-direction:column-reverse;width:fit-content;height:fit-content;}
+    #containworks .work{flex-direction:column-reverse;width:fit-content;height:fit-content;margin:10px auto;}
     .topInfo{flex-direction:column;width:fit-content;height:fit-content;justify-content:center;align-items:center;}
     .topInfo img{margin:auto !important;}
     .skills{display:none}

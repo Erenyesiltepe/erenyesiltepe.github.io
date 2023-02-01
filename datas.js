@@ -49,7 +49,11 @@ var Contacts=` <div id="mailform">
                                 <td>Message</td>
                             </tr>
                             <tr>
-                                <td colspan="2"><textarea name="message"  cols="30" rows="10"></textarea></td>
+                                <td colspan="2"><textarea name="message"  cols="30" rows="8"></textarea></td>
+                            </tr>
+                        
+                            <tr>
+                                <td colspan="2"><div id="btn2"><p>Send</p></div></td>
                             </tr>
                         </table>
                     </form>
