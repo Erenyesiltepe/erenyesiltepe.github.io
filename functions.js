@@ -33,7 +33,7 @@ $(function(){
                     $("#inside").html(Contacts);
                     $("#inside").animate({left:'0px'});
                     $("#inside").css("width","540px");
-                    $("#inside #mailform").css("left","150px");
+                    $("#inside #mailform").css("left","150px").css("height","300px");
                     $("#btn").click(function(){
                         if($(this).hasClass("clicked")){
                             $("#inside #mailform").css("left","150px");

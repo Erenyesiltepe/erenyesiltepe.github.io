@@ -91,6 +91,7 @@ body{height:100vh;background-image:url(./photos/back.gif);display:flex;align-ite
 #mailform #btn2:hover p{color: #189214;}
 
 #mailform form{overflow:hidden;}
+#mailform form *{border-radius: 10px;}
 
 
 #btn{background-color: #189214; border-radius:5px;width:fit-content;height: fit-content;align-items: center;padding:5px;}
