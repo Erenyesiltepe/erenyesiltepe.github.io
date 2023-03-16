@@ -62,6 +62,7 @@ var Contacts=` <div id="mailform">
                     <div id="contactme">
                         <img src="./photos/my.photo.jpeg" alt="none" id="myphoto">
                     <ul>
+                    <li><p>Tel: +90 506 146 2718</p></li>
                         <!--<li>E-mail: eren.bilkentk15@hotmail.com</li> -->
                         <li><a href="https://www.linkedin.com/in/eren-ye%C5%9Filtepe" target="_blank"><img style="width:30px;height:30px;" src="./photos/linkedin.png" ><p> Eren Yeşiltepe</p></a></li>
                         <li><a href="https://github.com/Erenyesiltepe" target="_blank"><img style="width:35px;height:35px;" src="./photos/github.png"><p> Eren Yeşiltepe</p></a></li>
