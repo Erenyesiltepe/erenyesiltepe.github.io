@@ -35,25 +35,25 @@ var aboutMe=`  <div id="mailform">
 `;
 
 var Contacts=` <div id="mailform">
-                    <form action="">
+                    <form>
                         <table>
                             <tr>
                                 <td>Name:</td>
-                                <td><input type="text" name="nameinp"></td>
+                                <td><input type="text" class="name"></td>
                             </tr>
                             <tr>
                                 <td>E-mail</td>
-                                <td><input type="text" name="mailinp"></td>
+                                <td><input type="text" class="mail"></td>
                             </tr>
                             <tr>
                                 <td>Message</td>
                             </tr>
                             <tr>
-                                <td colspan="2"><textarea name="message"  cols="30" rows="8"></textarea></td>
+                                <td colspan="2"><textarea class="message"  cols="34" rows="8"></textarea></td>
                             </tr>
                         
                             <tr>
-                                <td colspan="2"><div id="btn2"><p>Send</p></div></td>
+                                <td colspan="2"> <div id="btn2"><p>Send</p></div></td>
                             </tr>
                         </table>
                     </form>

@@ -85,13 +85,35 @@ body{height:100vh;background-image:url(./photos/back.gif);display:flex;align-ite
 #contactme ul p{color:#189214;padding-left:5px;line-height: 30px;}
 #inside #mailform{padding:20px 50px 20px 50px;background-color:#189214;left:250px;height:288px;margin:2px;transition: ease all 0.5s;justify-content:center}
 #inside #mailform *{color:#1d0c40;text-indent: 20px;}
-#btn2{background-color: #189214; border-radius:5px;width:80px !important;height: fit-content;align-items: center;padding:5px;margin-left:20px;overflow: hidden;}
-#mailform #btn2 p{color:#1c152d;width:80px;}
+#btn2{
+    display:flex;
+    background-color: #189214;
+     border-radius:5px;
+     width:80px !important;
+     height: fit-content;
+     justify-content: center;
+     padding:5px;
+     margin-left:20px;
+     margin-top:10px;
+     overflow: hidden;
+    }
+
+#btn2 p{
+    color:#1c152d;
+    width:fit-content;
+    text-indent: 0px !important;
+}
 #btn2:hover{background-color: #1c152d;cursor:pointer;transition:all ease 0.5s;}
-#mailform #btn2:hover p{color: #189214;}
+#btn2:hover p{color: #189214 !important;}
 
 #mailform form{overflow:hidden;}
 #mailform form *{border-radius: 10px;}
+
+#mailform textarea{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    resize:none;
+}
 
 
 #btn{background-color: #189214; border-radius:5px;width:fit-content;height: fit-content;align-items: center;padding:5px;}

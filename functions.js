@@ -33,10 +33,10 @@ $(function(){
                     $("#inside").html(Contacts);
                     $("#inside").animate({left:'0px'});
                     $("#inside").css("width","540px");
-                    $("#inside #mailform").css("left","150px").css("height","300px");
+                    $("#inside #mailform").css("left","120px").css("height","300px");
                     $("#btn").click(function(){
                         if($(this).hasClass("clicked")){
-                            $("#inside #mailform").css("left","150px");
+                            $("#inside #mailform").css("left","120px");
                             $("#inside").css("width","540px");
                         }
                         else{
@@ -79,6 +79,32 @@ $(function(){
         $(this).toggleClass("clicked");
     })
 
+    $("#inside").on("click","#btn2",function(){
+        var fbody=$("#inside .message").val();
+        var fname=$("#inside .name").val();
+        var fmail=$("#inside .mail").val();
+        
+        //var linkleme="sendMail.php?body="+body+"&topic="+mail+"&subject="+fname;
+        $.ajax({
+            url: './sendMail.php', // PHP script URL
+            method: 'GET', // Use GET method
+            data: {body:fbody,topic:fmail,subject:fname}, // Send data as query parameters
+            success: function(response) {
+              // Handle the response
+              console.log(response);
+            },
+            error: function(xhr, status, error) {
+              // Handle errors, if any
+              console.log("fail");
+            }
+          });
+          console.log(fbody+fname+fmail);
+          $("#inside .message").val("");
+          $("#inside .mail").val("");
+          $("#inside .name").val("");
+
+    })
+
 
         //functions specific to myworks part
         var distT=55,distL=230+100,r=100,j=35,angle=180,rad;
@@ -88,12 +114,8 @@ $(function(){
 
         var characterGrid = document.querySelector("#containworks");
             var numOfCols = Math.floor(($(window).width() * 0.8) / 500);
-            gridTemplColStyle = "";
-            for (i = 0; i < numOfCols; i++) {
-                gridTemplColStyle += "auto ";
-            }
-            characterGrid.style.gridTemplateColumns = gridTemplColStyle;
-
+            characterGrid.style.gridTemplateColumns = "auto auto";//numOfCols<2 ? "auto": "auto auto";
+            console.log(numOfCols<2 ? "auto": "auto auto");
         //animation
         var i=1;
        setTimeout(function(){
@@ -121,7 +143,7 @@ $(function(){
   
        $(".skillsSmall").each(function(){
             $(this).click(function(e){
-                console.log($(this).children().attr("src"))
+                //console.log($(this).children().attr("src"))
                 e.stopPropagation();
                 $(".skills").attr("src",`${$(this).children().attr("src")}`);
                 $(".text p").text(findDesc($(this).children()));
@@ -139,7 +161,7 @@ $(function(){
            $(".work:nth-of-type("+(v)+")").animate({right:'100px'},0).animate({right:'0px'},350).css("display","flex");
             v+=2;
         } 
-        console.log($(window).scrollTop()+"  "+v);
+       // console.log($(window).scrollTop()+"  "+v);
     });
 
     function displayWorks(){
