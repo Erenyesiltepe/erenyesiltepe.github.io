@@ -32,8 +32,9 @@ $(function(){
                     $("#works").css("display","none");
                     $("#inside").html(Contacts);
                     $("#inside").animate({left:'0px'});
-                    $("#inside").css("width","540px");
-                    $("#inside #mailform").css("left","120px").css("height","300px");
+                    $("#inside").css("width","540px").css("height","300px");
+                    $("#inside #mailform").css("left","120px");
+                    $("#inside #contactme").css("height","290px");
                     $("#btn").click(function(){
                         if($(this).hasClass("clicked")){
                             $("#inside #mailform").css("left","120px");

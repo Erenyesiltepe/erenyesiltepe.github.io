@@ -7,7 +7,8 @@ var skills=[
 
 var blender=[
     {description:"Originally it was an NFT project. I just wanted to see if I could create it myself.",img:`<img src="./photos/blender/1.jpg">`,link:"https://www.instagram.com/p/Cnr0TBdolVO/?utm_source=ig_web_copy_link"},
-    {description:"It was a project I made just for fun and improve my modelling and animation skills. I learned a lot about animation and organic modelling.",img:`<img src="./photos/blender/deer.png">`,link:"https://www.instagram.com/reel/Cm2gCSfs007/?utm_source=ig_web_copy_link"}
+    {description:"It was a project I made just for fun and improve my modelling and animation skills. I learned a lot about animation and organic modelling.",img:`<img src="./photos/blender/deer.png">`,link:"https://www.instagram.com/reel/Cm2gCSfs007/?utm_source=ig_web_copy_link"},
+    {description:"It is a model from the game Kena Bridge Of Spirits.",img:`<img src="./photos/blender/kena-staff.png">`,link:"https://www.instagram.com/p/Ct4nnzvIh39/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA=="}
 ]
 var coding=[
     {description:"Petiary was our CTIS221 JAVA term project. We created a program to store the information of pets and help their owners remember important things(like vaccination dates).",img:`<img src="./photos/coding/petiary.png">`,link:"https://github.com/Kitsune1890/221-Project.git"},
@@ -62,7 +63,7 @@ var Contacts=` <div id="mailform">
                     <div id="contactme">
                         <img src="./photos/my.photo.jpeg" alt="none" id="myphoto">
                     <ul>
-                    <li><p>Tel: +90 506 146 2718</p></li>
+                        <!--<li><p>Tel: +90 506 146 2718</p></li>-->
                         <!--<li>E-mail: eren.bilkentk15@hotmail.com</li> -->
                         <li><a href="https://www.linkedin.com/in/eren-ye%C5%9Filtepe" target="_blank"><img style="width:30px;height:30px;" src="./photos/linkedin.png" ><p> Eren Yeşiltepe</p></a></li>
                         <li><a href="https://github.com/Erenyesiltepe" target="_blank"><img style="width:35px;height:35px;" src="./photos/github.png"><p> Eren Yeşiltepe</p></a></li>

@@ -2,11 +2,14 @@
 //
 // UPDATE Username and Password fields.
 //
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-use PHPMailer\PHPMailer\Exception;
+use phpmailer\src\PHPMailer;
+use phpmailer\src\Exception;
 
-require_once './vendor/autoload.php' ;
+//require_once './vendor/autoload.php' ;
+require "./phpmailer/src/PHPMailer.php";
+require "./phpmailer/src/Exception.php";
+require "./phpmailer/src/SMTP.php";
+
 
 class Mail {
     public static function send($subject, $message,$name) {
