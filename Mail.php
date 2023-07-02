@@ -2,13 +2,12 @@
 //
 // UPDATE Username and Password fields.
 //
-use phpmailer\src\PHPMailer;
-use phpmailer\src\Exception;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
 
-//require_once './vendor/autoload.php' ;
-require "./phpmailer/src/PHPMailer.php";
-require "./phpmailer/src/Exception.php";
-require "./phpmailer/src/SMTP.php";
+//Load Composer's autoloader
+require 'vendor/autoload.php';
 
 
 class Mail {
